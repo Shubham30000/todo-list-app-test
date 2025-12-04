@@ -1,1 +1,63 @@
-# Simple Todo List Application ## Live Demo [View Live Demo](DEPLOYMENT_URL_PLACEHOLDER) ## Overview This is a minimalist and responsive web-based Todo List application designed to help users manage their daily tasks efficiently. Built with plain JavaScript, HTML, and styled using Tailwind CSS, it offers a clean user interface and essential features for task management, including adding new tasks, marking tasks as complete, and clearing completed tasks. Task data is persistently stored in the browser's local storage. ## Features * Add New Tasks: Easily add new items to your todo list. * Mark as Complete: Checkbox functionality to mark tasks as done. * Clear Completed Tasks: One-click button to remove all finished tasks. * Persistence: Tasks are saved in your browser's local storage, so they remain even after closing and reopening the browser. * Responsive Design: Optimized for various screen sizes, from mobile devices to desktops. * Modern UI: Clean and intuitive user interface powered by Tailwind CSS. ## Technologies Used * HTML5: Structure of the application. * CSS3 (Tailwind CSS CDN): For responsive and utility-first styling. * JavaScript (Vanilla JS): Core logic for task management and local storage interaction. ## Setup To run this project locally, simply follow these steps: 1. Clone the repository (or download the files): ```bash git clone https://github.com/YOUR_USERNAME/todo-list-app.git cd todo-list-app ``` (Note: This project is presented as individual files. If you've received them as separate files, simply create a folder and place `index.html`, `README.md`, and `LICENSE` inside.) 2. Open `index.html`: You can open the `index.html` file directly in your web browser. There is no need for a local server as all dependencies are loaded via CDN or are client-side JavaScript. ## Usage 1. Adding a Task: Type your task into the input field and click the "Add Task" button. 2. Completing a Task: Click the checkbox next to a task to mark it as complete. Completed tasks will show a line-through and slight opacity. 3. Deleting a Task: Click the trash icon next to a task to remove it permanently. 4. Clearing All Completed Tasks: Click the "Clear Completed" button at the bottom to remove all tasks that are currently marked as complete. ## Project Structure ``` . ├── index.html # The main application file (HTML, CSS, JS) ├── README.md # Project description and instructions └── LICENSE # MIT License details ``` ## License This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+# Modern Todo List Application
+
+A clean and interactive web-based todo list application to help users manage their daily tasks efficiently.
+
+## 🚀 Live Demo
+
+Experience the application live:
+
+### [🔗 https://Shubham30000.github.io/todo-list-app-test/](https://Shubham30000.github.io/todo-list-app-test/)
+
+
+## 📋 Overview
+
+This project is a simple yet effective todo list application built using fundamental web technologies. It allows users to easily add new tasks, track their progress by marking tasks as complete, and maintain a tidy list by clearing completed items. The application focuses on a straightforward user experience for managing daily to-dos.
+
+## ✨ Features
+
+*   **Add Tasks**: Quickly add new tasks using a dedicated input form (`#todo-form`).
+*   **Mark as Complete**: Checkboxes next to each task in the list (`#todo-list`) allow users to mark tasks as completed.
+*   **Clear Completed**: A dedicated button enables users to remove all completed tasks with a single click.
+*   **Intuitive UI**: Simple and user-friendly interface for seamless task management.
+*   **Responsive Design**: Built with modern CSS frameworks for a clean look across various devices.
+
+## 🛠️ Technologies Used
+
+*   **HTML5**: For structuring the application content.
+*   **CSS (Tailwind CSS or Bootstrap)**: Utilized for modern, responsive, and clean styling.
+*   **JavaScript**: Powers the application's interactive features, including task addition, completion toggling, and deletion.
+
+## 📦 Setup
+
+To get a local copy up and running, follow these simple steps.
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Shubham30000/todo-list-app-test.git
+    ```
+2.  **Navigate into the project directory**:
+    ```bash
+    cd todo-list-app-test
+    ```
+3.  **Open `index.html`** in your preferred web browser to run the application locally.
+
+## 💡 Usage
+
+Using the Todo List Application is straightforward:
+
+1.  **Add a new task**: Type your task into the input field within the `todo-form` and press `Enter` or click the "Add Task" button.
+2.  **Mark a task complete**: Click the checkbox next to any task in the `todo-list` to toggle its completion status.
+3.  **Clear completed tasks**: Click the "Clear Completed" button to remove all tasks that have been marked as complete from the list.
+
+## 📁 Project Structure
+
+```
+. 
+├── index.html       # The main HTML file structuring the application
+├── style.css        # Stylesheet for the application (includes Tailwind CSS/Bootstrap setup or custom styles)
+└── script.js        # JavaScript file containing all application logic
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
