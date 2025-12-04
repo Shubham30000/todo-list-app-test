@@ -1,1 +1,1 @@
-# todo-list-app-test
+# Todo AppA simple Todo application showcasing basic functionalities.
